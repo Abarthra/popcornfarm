@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roasted Popcorn | Cart</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="store.html">Shop here</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">PopCorn shopping cart</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Pick your flavours</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Caramel</span>
+                    <img class="shop-item-image" src="Images/Album 1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.30</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Butter Salted</span>
+                    <img class="shop-item-image" src="Images/Album 2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.45</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Mexican Cheese</span>
+                    <img class="shop-item-image" src="Images/Album 3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.40</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Mocktail</span>
+                    <img class="shop-item-image" src="Images/Album 4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.40</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">Rs.0</span>
+            </div>
+            <div class="btn btn-primary btn-purchase">
+                <a href="https://dashboard.razorpay.com/#/app/paymentlinks">Purchase</a></div>
+        </section>
+    </body>
+</html>
