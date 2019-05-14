@@ -283,8 +283,7 @@
     }
     .next_event_area .next_event_slider .right_event_text {
         padding-left: 20px;
-        height:120%;
-        width:80%
+       
     }
     .next_event_area .next_event_slider .right_event_text .event_shedule .item {
         margin-bottom: 20px;
@@ -295,8 +294,12 @@
     .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slotholder:before{
         content: "";
         background: rgba(0, 0, 0, .5);
-        width: 100%;
-        height: 100%;
+        margin-left: 35px;
+        padding-right: -50px;
+        margin-top: 150px;
+       padding-bottom: -50px;
+        width: 80%;
+        height: 50%;
         top: 0px;
         left: 0px;
         z-index: 5;
