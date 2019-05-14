@@ -283,6 +283,8 @@
     }
     .next_event_area .next_event_slider .right_event_text {
         padding-left: 20px;
+        height:120%;
+        width:80%
     }
     .next_event_area .next_event_slider .right_event_text .event_shedule .item {
         margin-bottom: 20px;
